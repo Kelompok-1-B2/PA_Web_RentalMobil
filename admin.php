@@ -24,9 +24,14 @@ $num_contacts = $pdo->query('SELECT COUNT(*) FROM admin')->fetchColumn();
 
 <?=template_header('Read')?>
 
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+  
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+
 <div class="content read">
 	<h2>Admin </h2>
-	<table border>
+	<table border id="table_id" class="display">
         <thead>
             <tr>    
                 <td>#</td>
