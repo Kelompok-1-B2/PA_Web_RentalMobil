@@ -13,11 +13,11 @@ if (!empty($_POST)) {
     $fotoktp = isset($_POST['fotoktp']) ? $_POST['fotoktp'] : '';
     $fotosim = isset($_POST['fotosim']) ? $_POST['fotosim'] : '';
     $d = strtotime("now");
-    $tgl = date("d-m-Y h:i:sa", $d);
+    $time = date("d-m-Y h:i:sa", $d);
 
 
-    $stmt = $pdo->prepare('INSERT INTO mobil VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
-    $stmt->execute([$id, $name, $pesan, $alamat, $telpon, $fotokk, $fotoktp, $fotosim, $tgl]);
+    $stmt = $pdo->prepare('INSERT INTO rentcar VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
+    $stmt->execute([$id, $name, $pesan, $alamat, $telpon, $fotokk, $fotoktp, $fotosim, $time]);
     $msg = 'Created Successfully!';
 }
 ?>
