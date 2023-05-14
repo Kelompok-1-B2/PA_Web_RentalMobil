@@ -67,4 +67,12 @@ $num_contacts = $pdo->query('SELECT COUNT(*) FROM admin')->fetchColumn();
 	</div>
 </div>
 
+<script>
+    $(document).ready(function () {
+    $('#example').DataTable({
+        order: [[3, 'desc']],
+    });
+});
+</script>
+
 <?=template_footer()?>
