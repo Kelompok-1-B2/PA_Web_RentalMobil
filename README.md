@@ -5,28 +5,28 @@ Rentacar merupakan website penyewaan mobil yang dapat membantu pengguna dalam me
 ![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/index%20page.png)
 Saat membuka website tampilan awal yang ditampilkan kepada user pertama kali merupakan tampilan untuk melakukan Explore, Login, dan Login Admin.
 ##
-![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Explore%20page.png)
 Pada pilihan Explore, user dapat melihat tampilan daftar mobil yang tersedia untuk rental tanpa dapat melakukan pemesanan rental.
+![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Explore%20page.png)
 #
 ## Halaman User
 ![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Usrlogin%20page.png)
 Sebelum masuk pada halaman utama, pelanggan/user akan diminta untuk melakukan melakukan login terlebih dahulu.
 ##
-![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Regis%20page.png)
 Jika belum memiliki akun, maka user akan diminta untuk melakukan registrasi akun terlebih dahulu.
+![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Regis%20page.png)
 ##
-![image]()
 Setelah berhasil melakukan login, maka akan muncul tampilan utama website yang menampilkan pilihan mobil yang dapat dirental. Untuk mengubah mode tampilan tema website dari terang kegelap maupun sebaliknya, user dapat menekan tombol Mode. Untuk melakukan pemesanan, user dapat menekan tombol Buat Pesanan yang berada tepat disamping tombol mode.
-##
 ![image]()
+##
 Saat melakukan pemesanan, user akan diminta untuk mengisi form pemesanan. Setelah selesai mengisi form pemesanan, tekan tombol create untuk mengkonfirmasi pesanan/memesan.
+![image]()
 #
 ## Halaman Admin
 ![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Admlogin%20page.png)
 Sebelum masuk pada halaman admin, admin akan diminta untuk melakukan melakukan login terlebih dahulu.
 ##
-![image]()
 Jika belum memiliki akun, maka admin dapat melakukan registrasi akun terlebih dahulu.
+![image]()
 ##
 ![image]()
 Setelah berhasil melakukan login, maka website akan menampilakan halaman utama milik admin. Pada role admin, admin dapat melakukan:
