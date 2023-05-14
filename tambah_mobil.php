@@ -42,7 +42,7 @@ $num_contacts = $pdo->query('SELECT COUNT(*) FROM car')->fetchColumn();
             <?php foreach ($contacts as $contact): ?>
             <tr>
                 <td><?=$contact['id']?></td>
-                <td><img src="image/<?php echo $contact["fotom"]; ?>" alt="simple" width="100px" height="100px"></td>
+                <td><img src="image/<?php echo $contact["foto"]; ?>" alt="simple" width="100px" height="100px"></td>
                 <td><?=$contact['name']?></td>
                 <td><?=$contact['harga']?></td>
                 <td><?=$contact['transmisi']?></td>
