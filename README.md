@@ -29,14 +29,14 @@ Sebelum masuk pada halaman admin, admin akan diminta untuk melakukan melakukan l
 Jika belum memiliki akun, maka admin dapat melakukan registrasi akun terlebih dahulu.
 ![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Regis%20page.png)
 ##
-![image]()
+![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/AdmPesanan.png)
 Setelah berhasil melakukan login, maka website akan menampilakan halaman utama milik admin. Pada role admin, admin dapat melakukan:
 - **Kelola Akun Admin** : 
-![image]()
+![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Acc2.png)
 Admin dapat melihat daftar kumpulan akun admin dan menghapus akun admin.
 ###
 - **Kelola Akun User** : 
-![image]()
+![image](https://github.com/Kelompok-1-B2/PA_Web_RentalMobil/blob/main/image/Acc1.png)
 Admin dapat melihat daftar kumpulan akun user dan menghapus akun user.
 ###
 - **Kelola Mobil** : 
