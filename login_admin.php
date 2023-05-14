@@ -45,7 +45,7 @@ session_start();
             echo"
                 <script>
                     alert('Selamat Datang $user');
-                    document.location.href = 'index1.php';
+                    document.location.href = 'admin.php';
                 </script>
             ";
         }else{
